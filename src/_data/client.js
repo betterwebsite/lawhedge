@@ -1,13 +1,13 @@
 module.exports = {
-    "name": "Code Stitch Web Designs",
-    "email": "help@codestitch.app",
-    "phoneForTel": "555-779-4407",
-    "phoneFormatted": "(555) 779-4407",
+    "name": "Better Website Web Designs",
+    "email": "Jim@lawhedge.com",
+    "phoneForTel": "405-615-6361",
+    "phoneFormatted": "(405) 615-6361",
     "address": {
-        "lineOne": "First Address Line",
-        "lineTwo": "Second Address Line",
-        "city": "Denver",
-        "state": "CO",
+        "lineOne": "Tulsa Office",
+        "lineTwo": "8215 S Mingo Rd",
+        "city": "Tulsa",
+        "state": "OK",
         "zip": "80206",
         "country": "US",
         "mapLink": "https://maps.app.goo.gl/TEdS5KoLC9ZcULuQ6"

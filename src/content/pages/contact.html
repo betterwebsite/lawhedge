@@ -17,18 +17,25 @@ eleventyNavigation:
 
 {% block body %}
 
-    <!-- ============================================ -->
-    <!--                    LANDING                   -->
-    <!-- ============================================ -->
+<!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
 
-    <section id="int-hero">
-        <h1 id="home-h">Contact Us</h1>
-        <picture>
-            <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-            <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-            <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
-        </picture>
-    </section>
+<div id="ContactBanner-327">
+    <div class="cs-container">
+        <span class="cs-int-title">Contact</span>
+        <div class="cs-breadcrumbs">
+            <a href="" class="cs-link">Home</a>
+            <a href="" class="cs-link cs-active">Contact Us</a>
+        </div>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Banners/library-m.jpg">
+        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Banners/library.jpg">
+        <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Banners/library.jpg" alt="library" width="1920" height="375">
+    </picture>
+</div>
 
     <!-- ============================================ -->
     <!--                Contact Form                  -->
@@ -75,15 +82,26 @@ eleventyNavigation:
                 <a class="cs-link" href="tel:{{client.phoneForTel}}">{{client.phoneFormatted}}</a>
                 <!--Address-->
                 <span class="cs-header">Address</span>
-                <a class="cs-link" href="{{client.address.mapLink}}">
-                    {{client.address.lineOne}},
+                <a class="cs-link" href="https://maps.app.goo.gl/x1PLAZZGAYB7zF8P9">
+                    Aurora Office 
                     <br/>
-                    {{client.address.lineTwo}},
+                    6105 S. Main Street, Suite 200
                     <br/>
                     <span class="cs-block">
-                        {{client.address.city}}
-                        {{client.address.state}}
-                        {{client.address.zip}}
+                        Aurora
+                        Colorado
+                        80016
+                    </span>
+                </a>
+                <a class="cs-link" href="https://maps.app.goo.gl/5WcC3CjwRRX3qH247">
+                    Tulsa Office
+                    <br/>
+                    8215 S Mingo Rd, Suite 200
+                    <br/>
+                    <span class="cs-block">
+                        Tulsa
+                        Oklahoma
+                        74133
                     </span>
                 </a>
 
