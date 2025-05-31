@@ -386,6 +386,7 @@
 @media only screen and (min-width: 0rem) {
     #sbsr-2289 {
         padding: var(--sectionPadding);
+        padding-bottom: 0rem;
         overflow: hidden;
 
         .cs-container {
@@ -641,7 +642,8 @@
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
     #sbs-2291 {
-        padding: var(--sectionPadding);
+        padding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+        padding-top: 0rem;
         overflow: hidden;
 
         .cs-container {
@@ -769,7 +771,7 @@
             height: 126vw;
             max-height: (626/16rem);
             display: block;
-            order: -1;
+            order: 2;
             position: relative;
             z-index: 1;
         }
@@ -856,6 +858,7 @@
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
     #sbs-2291 {
+        padding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
         .cs-box {
             flex-direction: row;
             align-items: center;
@@ -866,6 +869,7 @@
 /* Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
     #sbs-2291 {
+        padding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
         .cs-container {
             max-width: (1280/16rem);
             flex-direction: row;
@@ -882,6 +886,7 @@
             height: auto;
             min-height: (642/16rem);
             max-height: 100%;
+            order: -1;
         }
 
         .cs-picture {
